@@ -1,16 +1,16 @@
 package toolbox;
 
-public class Vector3 extends Vector2
+public class Point3D extends Point2D
 {
 	protected float _z;
 
-	public Vector3(float x, float y, float z)
+	public Point3D(float x, float y, float z)
 	{
 		super(x, y);
 		_z = z;
 	}
 
-	public Vector3()
+	public Point3D()
 	{
 		super();
 	}

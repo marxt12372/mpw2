@@ -4,5 +4,5 @@ import toolbox.*;
 
 public class Entity
 {
-	protected Vector3 _position;
+	protected Point3D _position;
 }

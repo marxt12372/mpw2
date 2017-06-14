@@ -1,19 +1,17 @@
 package toolbox;
 
-import sun.awt.motif.X11CNS11643;
-
-public class Vector2
+public class Point2D
 {
 	private float _x;
 	private float _y;
 
-	public Vector2(float x, float y)
+	public Point2D(float x, float y)
 	{
 		_x = x;
 		_y = y;
 	}
 
-	public Vector2()
+	public Point2D()
 	{
 	}
 
