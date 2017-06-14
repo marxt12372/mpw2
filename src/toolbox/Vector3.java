@@ -2,15 +2,17 @@ package toolbox;
 
 public class Vector3 extends Vector2
 {
-	private float _z;
+	protected float _z;
 
 	public Vector3(float x, float y, float z)
 	{
+		super(x, y);
 		_z = z;
 	}
 
 	public Vector3()
 	{
+		super();
 	}
 
 	public float getZ()

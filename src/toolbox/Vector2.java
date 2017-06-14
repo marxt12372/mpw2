@@ -22,8 +22,18 @@ public class Vector2
 		return _x;
 	}
 
+	public void setX(float x)
+	{
+		_x = x;
+	}
+
 	public float getY()
 	{
 		return _y;
+	}
+
+	public void setY(float y)
+	{
+		_y = y;
 	}
 }
