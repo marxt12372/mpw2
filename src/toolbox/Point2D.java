@@ -2,8 +2,8 @@ package toolbox;
 
 public class Point2D
 {
-	private float _x;
-	private float _y;
+	protected float _x;
+	protected float _y;
 
 	public Point2D(float x, float y)
 	{
